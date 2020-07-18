@@ -1,0 +1,850 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.16.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - riot-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > tar-pack > debug:
+        patched: '2020-07-18T00:17:01.394Z'
+  'npm:extend:20180424':
+    - riot-cli > node-sass > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > node-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > less > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > less > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > node-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > node-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > node-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > less > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > node-gyp > request > extend:
+        patched: '2020-07-18T00:17:01.394Z'
+  'npm:hoek:20180212':
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > less > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > less > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > less > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > less > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > less > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > less > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > less > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > less > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > less > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2020-07-18T00:17:01.394Z'
+  SNYK-JS-LODASH-567746:
+    - riot-cli > node-sass > sass-graph > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > gaze > globule > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > sass-graph > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > sass-graph > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > sass-graph > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-generator > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-generator > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-register > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-register > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > gaze > globule > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > gaze > globule > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > gaze > globule > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > sass-graph > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-generator > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-register > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > gaze > globule > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-generator > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-duplicate-keys > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-shorthand-properties > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-plugin-transform-strict-mode > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-sticky-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-unicode-regex > babel-helper-regex > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-regenerator > regenerator-transform > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-block-scoping > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-computed-properties > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-modules-commonjs > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-helper-optimise-call-expression > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-parameters > babel-helper-call-delegate > babel-helper-hoist-variables > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-function-name > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-object-super > babel-helper-replace-supers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-helper-get-function-arity > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > babel-preset-es2015-riot > babel-plugin-transform-es2015-classes > babel-helper-define-map > babel-helper-function-name > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2020-07-18T00:17:01.394Z'
+  'npm:stringstream:20180511':
+    - riot-cli > node-sass > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > node-sass > node-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > less > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > less > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot-cli > riot-compiler > node-sass > node-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > node-sass > node-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > node-sass > node-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > less > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > node-sass > node-gyp > request > stringstream:
+        patched: '2020-07-18T00:17:01.394Z'
+  'npm:tough-cookie:20170905':
+    - riot-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > chokidar > fsevents > node-pre-gyp > request > tough-cookie:
+        patched: '2020-07-18T00:17:01.394Z'
+  'npm:uglify-js:20151024':
+    - riot-cli > riot-compiler > jade > transformers > uglify-js:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-compiler > jade > transformers > uglify-js:
+        patched: '2020-07-18T00:17:01.394Z'
+    - riot > riot-cli > riot-compiler > jade > transformers > uglify-js:
+        patched: '2020-07-18T00:17:01.394Z'
